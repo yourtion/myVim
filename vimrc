@@ -25,6 +25,9 @@ set hidden
  
 "turn on syntax highlighting
 syntax on
+syntax enable
+set background=dark
+colorscheme solarized
  
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
