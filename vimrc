@@ -9,6 +9,14 @@ set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+set expandtab 			"用空格键替换制表符  
+set tabstop=4 			"制表符占4个空格
+set shiftwidth=4 		"默认缩进4个空格大小 
+
+"有时中文会显示乱码，用一下几条命令解决 
+let &termencoding=&encoding 
+set fileencodings=utf-8,gbk 
+
  
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
@@ -40,6 +48,14 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 "my Bundle here:
-"
+" 在输入()，""等需要配对的符号时，自动帮你补全剩余半个
+Bundle 'AutoClose'
+" 神级插件，ZenCoding可以让你以一种神奇而无比爽快的感觉写HTML、CSS
+Bundle 'ZenCoding.vim'
+" JS代码格式化插件；
+Bundle '_jsbeautify'
+" 自动识别文件编码；
+Bundle 'FencView.vim'
+
 filetype plugin indent on
 
