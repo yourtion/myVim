@@ -60,5 +60,13 @@ Bundle '_jsbeautify'
 " 自动识别文件编码；
 Bundle 'FencView.vim'
 
+Bundle 'scrooloose/syntastic'
+
+Bundle 'pangloss/vim-javascript'
+Bundle 'moll/vim-node'
+
+Bundle 'elzr/vim-json'
+Bundle 'tpope/vim-liquid'
+
 filetype plugin indent on
 
