@@ -2,7 +2,6 @@ set nocompatible                " be iMproved
 " ================ General Config ====================
  
 "set number                      "Line numbers are good
-set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
 set showmode                    "Show current mode down the bottom
@@ -55,17 +54,9 @@ Bundle 'gmarik/vundle'
 Bundle 'AutoClose'
 " 神级插件，ZenCoding可以让你以一种神奇而无比爽快的感觉写HTML、CSS
 Bundle 'ZenCoding.vim'
-" JS代码格式化插件；
-Bundle '_jsbeautify'
 " 自动识别文件编码；
 Bundle 'FencView.vim'
-
 Bundle 'scrooloose/syntastic'
-
-Bundle 'pangloss/vim-javascript'
-Bundle 'moll/vim-node'
-
-Bundle 'elzr/vim-json'
 Bundle 'tpope/vim-liquid'
 
 filetype plugin indent on
