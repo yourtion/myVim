@@ -1,6 +1,6 @@
 set nocompatible                " be iMproved
 " ================ General Config ====================
- 
+set paste 
 "set number                      "Line numbers are good
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
