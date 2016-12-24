@@ -1,4 +1,6 @@
 #!/bin/sh
+
+mkdir ~/.vim
 cd ~/.vim
 
 if [ -f "$HOME/.vimrc" ]; then
