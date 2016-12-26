@@ -9,3 +9,12 @@
 $ git clone git@github.com:yourtion/myVim.git
 $ cd myVim && ./initVim.sh
 ```
+
+## server.vimrc
+
+服务器常用的简单配置
+
+```sh
+$ curl https://raw.githubusercontent.com/yourtion/myVim/master/server.vimrc > ~/.vimrc
+```
+
